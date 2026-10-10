@@ -1,0 +1,213 @@
+{
+  "version": "Minecraft Java Edition 1.21.4",
+  "source_repository": "https://github.com/InventivetalentDev/minecraft-assets/tree/1.21.4",
+  "files": [
+    {
+      "file": "cooked_beef.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/cooked_beef.png",
+      "sha256": "07d08a99d1b51230aa7edf4e6a890130cce02a6a5fa64407850354192bfdbea3",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "cooked_porkchop.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/cooked_porkchop.png",
+      "sha256": "375ac21a18e7439527c8f5db65b8afae13ae1cd4db2b0b07d42a269742f15f26",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "bread.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/bread.png",
+      "sha256": "7e0e4a9fcb8bd4b85820ee3aa7ea83b66f08687cd907a8d38cc98281b41fac1d",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "carrot.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/carrot.png",
+      "sha256": "113a62e7fbee7d2874268f62c7ca5db3dc9b1dc538f7ff5aaa0fae5a4f1f3e0d",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "cookie.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/cookie.png",
+      "sha256": "63d05ecf76d302e188d44d556207218686814f808a33ad443a69ba73604d6324",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "golden_apple.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/golden_apple.png",
+      "sha256": "de0de35dfe21f5644a9de5b8c46c1154e004c1454e60100ed61e3d3aec8cb972",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "tnt_side.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/block/tnt_side.png",
+      "sha256": "950388eb9f86f9882c11e4ef291c4da8416433d9cac8ce2713abfb322f2ca159",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "clock_00.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/clock_00.png",
+      "sha256": "52652043a299f6d27da9229f1ccadd64e94018e6126c0bb2cbdf283bec114d87",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "iron_chestplate.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/iron_chestplate.png",
+      "sha256": "028d1a738128c5622471a9d1b94f00b49a696e7c4fac3dfccd07272e50021f71",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "cooked_chicken.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/cooked_chicken.png",
+      "sha256": "911707b878314681b6a983b32fa012202be22939b1317f5b6ad4f618bea826b2",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "shears.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/shears.png",
+      "sha256": "63be8d8865a04be4109aaae4fbb5d5b94c573e0f9f52ba79b444660eefce33d8",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "paper.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/paper.png",
+      "sha256": "8ffee002bbc339552eb4d6be5948eb4eb66d016c19e7bbc55bc1cd4a575cc44a",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "cobblestone.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/block/cobblestone.png",
+      "sha256": "bcda95fdf5afa91747657aa198fc0b69ebf44141de30a718075f74045e9a5def",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "diamond_sword.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/diamond_sword.png",
+      "sha256": "5634a8cb79a70beb306210de9ec492fc2d4dc8f739372683e9882ef06bf63008",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "iron_pickaxe.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/iron_pickaxe.png",
+      "sha256": "b211a9b920d8f22ce5451780855155644d14ca7b85ab16d31f9c0b572cdda7ee",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "writable_book.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/writable_book.png",
+      "sha256": "181b670aafb03287849957ee882863c3924a2aaa826f3f44ab94bea906c54228",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "potion.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/potion.png",
+      "sha256": "6a09a39bb6c41bc92bd5eca1f51caf5b582a85f68206b164476c8e14a4669416",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "blaze_powder.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/blaze_powder.png",
+      "sha256": "be1d8c93bbff955c94c194bb944b200d884d30fcc7e221fff739881d6ed5eca2",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "slime_ball.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/slime_ball.png",
+      "sha256": "b6dc3e58310ed184499862f67ed6462cd469c9e3d4655b01758474bd77a478b1",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "redstone_torch.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/block/redstone_torch.png",
+      "sha256": "160caba109123055dc002a7471439cb32502cbcb07074524be564782586872a6",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "redstone_torch_off.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/block/redstone_torch_off.png",
+      "sha256": "b37d7c758987039434f942e8b139e8e5dc6e52e45c7d3f595f9d54a101a3fea1",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "note_block.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/block/note_block.png",
+      "sha256": "52ce801f021f96960ae3f1693e36045e138c093b295a5dfd00d6ee75da2f583a",
+      "size": [
+        16,
+        16
+      ]
+    },
+    {
+      "file": "ender_pearl.png",
+      "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/textures/item/ender_pearl.png",
+      "sha256": "ff40529856c82317ce24cec4ba384971f56aec0f8ce3756e059d2eb17f3b310a",
+      "size": [
+        16,
+        16
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/sounds/random/eat1.ogg",
+    "original": "eat1.ogg",
+    "sha256": "b96b9b3586acc8e35fad92395648e03d612534a05f332eb59bfb3ed2ace4e87a",
+    "playback": "eat1.wav"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/sounds/random/eat2.ogg",
+    "original": "eat2.ogg",
+    "sha256": "9bf29af6b0ce04a60ed44b8a0dfc4703cad58ae9fa28a27326890828b615578d",
+    "playback": "eat2.wav"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/sounds/random/eat3.ogg",
+    "original": "eat3.ogg",
+    "sha256": "1198a64c34a8a30a7d288321915b39a79fb54813f85352e2184108fbeaa5f8e4",
+    "playback": "eat3.wav"
+  },
+  {
+    "event": "item.armor.equip_iron",
+    "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/sounds/item/armor/equip_iron1.ogg",
+    "original": "armor1.ogg",
+    "sha256": "d4762588fa3cce8bc20986ca5f732318835c1df1cbe6014fd3a44bdb22637542",
+    "playback": "armor1.wav"
+  },
+  {
+    "event": "item.armor.equip_iron",
+    "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/sounds/item/armor/equip_iron2.ogg",
+    "original": "armor2.ogg",
+    "sha256": "71bf52aff2cb55113a52ea79ad3922a8062394ef600f7a729b127732c65e68df",
+    "playback": "armor2.wav"
+  },
+  {
+    "event": "item.armor.equip_iron",
+    "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/sounds/item/armor/equip_iron3.ogg",
+    "original": "armor3.ogg",
+    "sha256": "a73f65d65708e1bec5c313da804b26efa26565d309f27b3140f6d7f1b3ca4ca1",
+    "playback": "armor3.wav"
+  },
+  {
+    "event": "item.armor.equip_iron",
+    "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/sounds/item/armor/equip_iron4.ogg",
+    "original": "armor4.ogg",
+    "sha256": "41c9ddd684b8f21969d7d0f507f75bc70951349d75a161486c675bdb427f0e6d",
+    "playback": "armor4.wav"
+  },
+  {
+    "event": "item.armor.equip_iron",
+    "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/sounds/item/armor/equip_iron5.ogg",
+    "original": "armor5.ogg",
+    "sha256": "b4d1337af1022f555b1fdb4d40d027e4d8002ca0a2f03d4f707fb76bd8f9c85a",
+    "playback": "armor5.wav"
+  },
+  {
+    "event": "item.armor.equip_iron",
+    "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/sounds/item/armor/equip_iron6.ogg",
+    "original": "armor6.ogg",
+    "sha256": "e5108f27e2185f1d93e89233b089a04c325b963c4e175ce14eaef96080949b5c",
+    "playback": "armor6.wav"
+  },
+  {
+    "event": "entity.generic.explode",
+    "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/sounds/random/explode1.ogg",
+    "original": "explode1.ogg",
+    "sha256": "f5951a4f5ece95d595398c3519ab26044c359bc088a0f0684ee6f1b14c02ebc0",
+    "playback": "explode1.wav"
+  },
+  {
+    "event": "entity.generic.explode",
+    "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/sounds/random/explode2.ogg",
+    "original": "explode2.ogg",
+    "sha256": "cb262b2af5fdfaac7b83cc64790c83cc852506444f382f06ded37e83f105b5a8",
+    "playback": "explode2.wav"
+  },
+  {
+    "event": "entity.generic.explode",
+    "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/sounds/random/explode3.ogg",
+    "original": "explode3.ogg",
+    "sha256": "c2a8b6821fe8a50d72605bff3410bd8c4c82bff47cbce37d99e225dbaf55f6a4",
+    "playback": "explode3.wav"
+  },
+  {
+    "event": "entity.generic.explode",
+    "source": "https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.21.4/assets/minecraft/sounds/random/explode4.ogg",
+    "original": "explode4.ogg",
+    "sha256": "f676d7fb3ddd9623ca931004ad380c5027846394b51b96b0ac2518159ff915c2",
+    "playback": "explode4.wav"
+  }
+]
