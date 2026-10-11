@@ -1040,7 +1040,7 @@ class FatGPTApp:
         self.arena.create_rectangle(0, 465*sy, w, h, fill="#C9A474", outline="#F5DCAC", width=3, tags="scenery")
         self.draw_pixel_avatar()
         self.arena.create_text(190*sx, 530*sy, text="FAT-GPT\nหลุมดำประจำครัว", fill="#342C24", font=(self.main_font, max(11, int(16*min(sx,sy))), "bold"), tags="scenery")
-        self.arena.create_text(810*sx, 530*sy, text="คลิกป้อน • เว้นวรรคพัก\nอย่าป้อน TNT!", fill="#342C24", font=(self.main_font, max(10, int(14*min(sx,sy)))), tags="scenery")
+        self.arena.create_text(810*sx, 530*sy, text="กดป้อน • เว้นวรรคพัก\nอย่ากด TNT!", fill="#342C24", font=(self.main_font, max(10, int(14*min(sx,sy)))), tags="scenery")
         self.arena.tag_lower("scenery")
         self.draw_brainrot(self.arena,kitchen=True)
         for tag, target in self.food_targets.items():
