@@ -17,3 +17,9 @@ snd_*.wav
 .aws/
 .vscode/
 .idea/
+
+# Local documents and exports
+/VOICE_SETUP.md
+/memes/README.txt
+/presentation_output/
+/social_output/

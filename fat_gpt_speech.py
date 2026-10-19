@@ -81,7 +81,7 @@ class SpeechPlayer:
                 output = Path(folder) / 'niwat.mp3'
                 text_file.write_text(text, encoding='utf-8')
                 if not self.tts_python.exists():
-                    raise RuntimeError('ยังไม่ได้ติดตั้งเสียงผู้ชาย ดูขั้นตอนใน VOICE_SETUP.md')
+                    raise RuntimeError('ยังไม่ได้ติดตั้งเสียงผู้ชาย ดูขั้นตอนติดตั้งใน README.md')
                 # The service controls pitch independently; audio playback stays at 1x.
                 if not self._run([str(self.tts_python), '-m', 'edge_tts', '--voice', self.voice,
                                   f'--rate={int(rate):+d}%', f'--pitch={int(pitch):+d}Hz',
