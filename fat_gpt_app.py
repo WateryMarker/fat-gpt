@@ -20,9 +20,6 @@ from PIL import Image, ImageOps, ImageTk
 
 SOUND_DIR = Path(__file__).resolve().parent
 
-# ==========================================
-# SOUND EFFECT GENERATOR
-# ==========================================
 def create_sound_files():
     sounds = {
         "chop": ([800, 400], 0.05),
@@ -83,9 +80,6 @@ def play_snd(sound_name):
     threading.Thread(target=_play, daemon=True).start()
 
 
-# ==========================================
-# MAIN FAT-GPT APPLICATION
-# ==========================================
 class FatGPTApp:
     def __init__(self, root):
         self.root = root
@@ -164,7 +158,6 @@ class FatGPTApp:
         self.root.after(1000, self.hunger_tick)
 
     def setup_xp_theme(self):
-        # XP used compact Tahoma throughout its controls and dialogs.
         for name, size, weight in (
             ("TkDefaultFont", 9, "normal"), ("TkTextFont", 10, "normal"),
             ("TkMenuFont", 9, "normal"), ("TkHeadingFont", 9, "bold"),
@@ -207,7 +200,6 @@ class FatGPTApp:
         return ttk.Button(parent, **options)
 
     def mc_label(self, parent, **options):
-        # Only explicitly selected food labels carry artwork.
         if options.get("image"):
             options.setdefault("compound", tk.LEFT)
             if "width" in options:
@@ -862,7 +854,6 @@ class FatGPTApp:
         self.root.after(50,self.animate_brainrot)
 
     def meme_opacity(self, popup):
-        # Quick arrival, then a smooth 0.8-second fade back to the game.
         entrance = min(1,popup["age"]/.12)
         exit_alpha = min(1,max(0,(popup["duration"]-popup["age"])/.8))
         return .88*entrance*exit_alpha
@@ -944,7 +935,6 @@ class FatGPTApp:
         round_id = self.arcade_round
         title = self.arena.create_text(0,0,text="67",fill="#FFEB4B",font=(self.main_font,60,"bold"),tags="meme67")
         caption = self.arena.create_text(0,0,text="SIX SEVEN!",fill="white",font=(self.main_font,20,"bold"),tags="meme67")
-        # Put the joke above the food so the effect never blocks a click target.
         self.arcade_taunt.config(text=random.choice([
             "SIX SEVEN! กูไม่รู้ว่ามันแปลว่าอะไร แต่หิว 67 เท่า",
             "ออร่า +67 • สเต๊กเข้าปาก • สมองออกจากเซิร์ฟเวอร์",
@@ -984,7 +974,6 @@ class FatGPTApp:
             return self.arena.create_rectangle(
                 left+x*pixel,top+y*pixel,left+(x+width)*pixel,top+(y+height)*pixel,
                 fill=color,outline="",tags=("scenery","pixel_avatar"))
-        # Stepped outline, blocky hair, chunky cheeks and an XP-blue shirt.
         for x,y,width,height,color in (
             (4,0,16,1,"#342A28"),(2,1,20,2,"#342A28"),
             (1,3,22,11,"#342A28"),(2,14,20,2,"#342A28"),(4,16,16,2,"#342A28"),
@@ -1025,7 +1014,6 @@ class FatGPTApp:
             else:
                 self.set_avatar_blink(True)
                 self.avatar_next_blink = now+.13
-        # Only two small eye shapes change; no image generation per frame.
         self.root.after(65,self.animate_avatar)
 
     def resize_arena(self, event=None):
@@ -1279,7 +1267,6 @@ class FatGPTApp:
                 if self.arcade_heat >= 10:
                     self.arcade_heat = 0
                     self.fever_until = time.monotonic()+6
-                    # Turn existing bombs into gold so fever is a genuine reward.
                     for other in self.food_targets.values():
                         if other["kind"]=="bomb":
                             other["kind"],other["icon"] = "gold",""

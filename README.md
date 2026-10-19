@@ -1,13 +1,12 @@
 # FAT-GPT
 
-แอปแชทภาษาไทยธีม Windows XP พร้อมไอ้กวนๆ ที่ต้องป้อนอาหารให้มีพลังงานก่อนคุย
-พลังงานลดตามเวลา อาหารมีบัฟ และมินิเกมช่วยเพิ่มความอ้วน
+A Thai chatbot with a Windows XP look and a hunger meter. Feed it before asking questions. Its energy drains over time, food changes its mood, and a minigame lets you earn more calories.
 
-มีมินิเกมป้อนอาหาร Minecraft พร้อม TNT คอมโบ และมีมสุ่ม ใส่รูปของตัวเองเพิ่มได้
+The game includes Minecraft food, TNT, combos, and random memes. You can add your own images.
 
-## รันบน macOS
+## Run on macOS
 
-เปิด Terminal ในโฟลเดอร์โปรเจกต์ แล้วรัน:
+Open Terminal in the project folder:
 
 ```sh
 python3 -m venv .venv
@@ -15,9 +14,9 @@ python3 -m venv .venv
 .venv/bin/python fat_gpt_mac_app.py
 ```
 
-## รันบน Windows
+## Run on Windows
 
-ติดตั้ง Python 3.14 แล้วแตก ZIP ของโปรเจกต์ เปิด PowerShell ในโฟลเดอร์นั้น:
+Install Python 3.14, download and extract the project, then open PowerShell in its folder:
 
 ```powershell
 py -3.14 -m venv .venv
@@ -25,23 +24,23 @@ py -3.14 -m venv .venv
 .\.venv\Scripts\python.exe fat_gpt_app.py
 ```
 
-ครั้งต่อไปใช้แค่คำสั่งบรรทัดสุดท้าย ไม่ต้อง activate `.venv`
-ถ้าขึ้น `No module named PIL` ให้รันบรรทัดติดตั้งแพ็กเกจอีกครั้ง
-Python ต้องมี Tkinter ด้วย ทดสอบได้ด้วย `python3 -m tkinter` บน Mac หรือ `py -3.14 -m tkinter` บน Windows
-ยังไม่ได้ทดสอบบนเครื่อง Windows จริง
+After setup, use only the last command to launch the app. You do not need to activate `.venv`.
+If you get `No module named PIL`, run the package installation command again.
+Python must include Tkinter. Check with `python3 -m tkinter` on macOS or `py -3.14 -m tkinter` on Windows.
+The app has not been tested on a Windows machine yet.
 
-## ตั้งค่าแชทและเสียง
+## Chat and voice settings
 
-ค่าเริ่มต้นใช้ Ollama ที่ `http://localhost:11434/v1` กับโมเดล `qwen2.5:14b`
-ต้องเปิด Ollama และติดตั้งโมเดลก่อน หรือเปลี่ยนชื่อโมเดลในแท็บตั้งค่า
-ใช้ API อื่นได้โดยกรอก Base URL, Model และ API Key ในแอป คีย์ไม่ได้บันทึกลงไฟล์
+The default connection is Ollama at `http://localhost:11434/v1` with `qwen2.5:14b`.
+Start Ollama and install that model, or choose an installed model in the app's settings.
+You can also enter a base URL, model name, and API key for a compatible API. The app does not save the key to a file.
 
-เสียงพูดใช้ [edge-tts](https://github.com/rany2/edge-tts) เสียงผู้ชายไทย Niwat และรองรับเฉพาะ macOS
-เปิดปิดเสียงได้จากปุ่มด้านบน การสร้างเสียงต้องใช้อินเทอร์เน็ตและส่งข้อความคำตอบไปยังบริการ Microsoft
+Voice uses [edge-tts](https://github.com/rany2/edge-tts) with the Thai male voice Niwat and currently works only on macOS.
+Use the button at the top of the app to turn it on or off. Speech generation requires an internet connection and sends the reply text to Microsoft's service.
 
-## เพิ่มมีม
+## Add memes
 
-วางรูปใน `memes/` หรือโฟลเดอร์เดียวกับแอป รองรับ PNG, JPG, JPEG, WEBP และ GIF เฟรมแรก
+Put images in `memes/` or next to the app. Supported formats are PNG, JPG, JPEG, WEBP, and the first frame of a GIF.
 
-ภาพและเสียง Minecraft เป็นของ Mojang / Microsoft โปรเจกต์นี้เป็นแฟนโปรเจกต์ที่ไม่เป็นทางการ
-ดูแหล่งที่มาใน [assets/minecraft](assets/minecraft/README.md) และไฟล์ `sources.json`
+Minecraft images and sounds belong to Mojang / Microsoft. This is an unofficial fan project.
+Sources are listed in [assets/minecraft](assets/minecraft/README.md) and its `sources.json` files.
